@@ -1,0 +1,27 @@
+{
+  "name": "devsession",
+  "version": "1.0.0",
+  "description": "The JavaScript runtime is single threaded and therefore does not truly support cuncurrency. However, it does support the appearance of concurrency with combination of the [Event loop](https://nodejs.org/en/docs/guides/event-loop-timers-and-nexttick) runtime and built-in [Asynchronous functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function).",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run build & jest ./dist/solution.test.js",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://izabayo7: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@github.com/izabayo7/devSession.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/izabayo7/devSession/issues"
+  },
+  "homepage": "https://github.com/izabayo7/devSession#readme",
+  "dependencies": {
+    "jest": "^29.6.1",
+    "typescript": "^5.1.6"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.3"
+  }
+}
